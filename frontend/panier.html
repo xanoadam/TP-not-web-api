@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="panier.css">
+    <script type="module" src="panier.js" defer></script>
+    <title>Produit</title>
+</head>
+
+<header>
+    <nav class="main">
+        <a href="./index.html">Accueil</a>
+        <a href="./panier.html">Mon Panier</a>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <p class="empty"></p>
+        <div class="products-section">
+            <div class="products"></div>
+            <div class="total"></div>
+        </div>
+        <div class="form">
+            <label for="text">Prénom</label>
+            <input type="text" name="firstName" id="firstName">
+
+            <label for="text">Nom</label>
+            <input type="text" name="lastName" id="lastName">
+
+            <label for="text">Adresse</label>
+            <input type="text" name="address" id="address">
+
+            <label for="text">Ville</label>
+            <input type="text" name="city" id="city">
+
+            <label for="text">Mail</label>
+            <input type="email" name="email" id="email">
+
+            <button class="validate-form">Commander</button>
+        </div>
+    </div>
+</body>
+
+</html>
